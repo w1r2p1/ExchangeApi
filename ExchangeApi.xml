@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExchangeApi</name>
+    </assembly>
+    <members>
+        <member name="M:ExchangeApi.Core.GZipDecompresser.Decompress(System.Byte[])">
+            <summary>
+            Decompress the byte array to UTF8 string
+            </summary>
+            <param name="input">byte array</param>
+            <returns>UTF8 string</returns>
+        </member>
+        <member name="M:ExchangeApi.Core.GZipDecompresser.Compress(System.String)">
+            <summary>
+            Compress the UTF8 string to byte array.
+            This method is only used in Unit Test in SDK.
+            </summary>
+            <param name="input">UTF8 string</param>
+            <returns>byte array</returns>
+        </member>
+        <member name="T:ExchangeApi.Huobi.Swap.AccountClient">
+            <summary>
+            合约资产接口
+            </summary>
+        </member>
+        <member name="T:ExchangeApi.Huobi.Swap.AccountWebSocketClient">
+            <summary>
+            资产变动订阅
+            </summary>
+        </member>
+        <member name="T:ExchangeApi.Huobi.Swap.PositionWebSocketClient">
+            <summary>
+            持仓变动订阅
+            </summary>
+        </member>
+    </members>
+</doc>
